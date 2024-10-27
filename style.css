@@ -1,4 +1,8 @@
-
+main {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
 
 /* Headings */
 
@@ -9,6 +13,8 @@ h1 {
     color: khaki;
     background-image:url(./images/pattern.jpeg);
     text-align: center;
+    width: 75%;
+    margin: 20 auto;
 }
 
 h3  {
@@ -16,6 +22,19 @@ h3  {
     font-size: 32px;
     font-weight: bold;
     color: white;
+    width: 100%;
+    margin: 20 auto;
+}
+
+h5 {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+p  {
+    font-family: Helvetica, sans-serif;   
+    font-size: 16px;
 }
 
 .header-brush {
@@ -36,4 +55,13 @@ h3  {
     font-family: Helvetica, sans-serif;   
     font-weight: bold;
     color: blue;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+section {
+    margin-top: 50px;
 }
